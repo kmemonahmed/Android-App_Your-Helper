@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0D0D"
+    android:orientation="vertical"
+    tools:context=".CgpaCalculator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your SGPA"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#F5F4F4"
+            android:textAllCaps="true"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/p1"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/p2"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/p3"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/p4"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/p5"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/p6"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/p7"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/p8"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/p9"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/p10"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/p11"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/p12"
+            android:inputType="numberDecimal"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#A39E9E"
+            android:hint="      Enter Point"
+            android:textColorHint="#131312"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/calcid"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#03A9F4"
+            android:text="Calculate"
+            android:textAllCaps="false"
+            android:textColor="#F8F3F3"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</ScrollView>

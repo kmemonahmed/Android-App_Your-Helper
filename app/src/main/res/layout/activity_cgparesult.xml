@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090808"
+    android:orientation="vertical"
+    tools:context=".cgparesultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Average CGPA  : "
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#F7F4F4"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="306dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#03A9F4" />
+
+    <TextView
+        android:background="#FCFBF9"
+        android:id="@+id/resultgt"
+        android:layout_width="237dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="CGPA Here"
+        android:textStyle="bold"
+        android:textColor="#0C0C0C"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/divide"
+        android:layout_width="237dp"
+        android:layout_height="7dp"
+        android:layout_gravity="center"
+        android:background="#045A08" />
+
+
+</LinearLayout>

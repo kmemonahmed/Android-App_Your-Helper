@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBFCFD"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:background="@drawable/bccc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bc"
+            android:src="@drawable/appemon" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000609" />
+
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000609" />
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/qr_id"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/qr" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/qr_tvid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR Scanner"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="left">
+
+                <ImageView
+                    android:id="@+id/Basic_id"
+                    android:layout_width="110sp"
+                    android:layout_height="110sp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="15sp"
+                    android:src="@drawable/basicc" />
+
+                <TextView
+                    android:id="@+id/Basic_idtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Basic Calculator"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bmi_id"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:src="@drawable/bmiii" />
+
+                <TextView
+                    android:layout_marginRight="10sp"
+                    android:id="@+id/bmi_idtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="Bmi Calculator"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="left">
+
+                <ImageView
+                    android:id="@+id/cg_id"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/cgpa" />
+
+                <TextView
+                    android:id="@+id/cg_idtv"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cgpa Calculator"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="right">
+
+                <ImageView
+                    android:id="@+id/emi_id"
+                    android:layout_width="142dp"
+                    android:layout_height="116dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/emi" />
+
+                <TextView
+                    android:id="@+id/emi_idtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10sp"
+                    android:text="Emi Calculator"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/k2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bc"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000609" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000609" />
+
+            <ImageView
+                android:id="@+id/about_id"
+                android:layout_width="328dp"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/avm" />
+
+            <TextView
+                android:id="@+id/about_idtv"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="About Us"
+                android:textColor="#FDFCFC"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

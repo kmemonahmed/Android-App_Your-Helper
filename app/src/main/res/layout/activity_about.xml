@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bc"
+    android:weightSum="3"
+    tools:context=".AboutActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:background="@drawable/emon"
+        android:src="@drawable/emon" />
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K. M. Emon Ahmed"
+            android:textColor="#54DDEC"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Sc in CSE"
+            android:textColor="#FFFDFD"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daffodil International University"
+            android:textColor="#FFFDFD"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/linkid"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fblink"
+            android:textColorLink="#06A8F1"
+            android:textColor="#06A8F1"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+
+
+</LinearLayout>

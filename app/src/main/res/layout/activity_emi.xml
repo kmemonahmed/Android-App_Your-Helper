@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EmiActivity"
+    android:background="#F0FCFAFA">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:textColorHint="#0C0C0C"
+        android:textColor="#0F0F0F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:id="@+id/amt"
+        android:hint="$"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp" />
+
+    <EditText
+        android:textColorHint="#0E0D0D"
+        android:textColor="#0C0C0C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignStart="@+id/amt"
+        android:id="@+id/time"
+        android:hint="Year"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/amt" />
+
+    <TextView
+        android:textColor="#0C0C0C"
+        android:text="Interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:layout_below="@+id/time"
+        android:layout_alignEnd="@+id/textView"
+        tools:ignore="UnknownId"
+        android:layout_alignRight="@+id/textView" />
+
+    <TextView
+        android:textColor="#111111"
+        android:text="Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:layout_below="@+id/amt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:textColorHint="#0F0F0F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/si"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignStart="@+id/time"
+        android:hint="Interest Percentage"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/time" />
+
+    <Button
+        android:textColor="#0C0C0C"
+        android:text="Calculate Emi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/si"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"
+        android:layout_alignParentLeft="true"
+        tools:ignore="OnClick" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/bcccc"
+            android:id="@+id/emi"
+            android:layout_width="368dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="314dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="246dp"
+            android:hint="EMI"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="#0F0F0F"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
